@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "bodytext";
+    src: url(fonts/fjallaone-regular-webfont.woff2) format("woff2"),
+         url(fonts/fjallaone-regular-webfont.woff) format("woff");
+}
+
+@font-face {
+    font-family: "cooltext";
+    src: url(fonts/offbittrial-dotbold-webfont.woff2) format("woff2"),
+         url(fonts/offbittrial-dotbold-webfont.woff) format("woff");
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    margin-top: -1px;
+    margin-left: -10px;
+    margin-right: -10px;  
+}
+
+.left {
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+#side {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.banner {
+    color: white;
+    position: absolute; 
+    top:30%;
+    width: 100%;
+    padding:10px 0px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.logotext {
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+.wrapper {
+    font-size: 50px;
+    font-family: "cooltext";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 50px;
+}
