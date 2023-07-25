@@ -6,10 +6,14 @@
     <title>Sign Up!</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="left">
-        <img src="images/side.jpg" id="side" alt="a beautiful scenery with a mountain at distance">
+        <img src="images/bulb.jpg" id="side" alt="a beautiful scenery with a mountain at distance">
         <div class="banner">
             <div class="wrapper">
                 <img src="images/odin-lined.png" id="logo" alt="logo of Odin Project">
@@ -19,7 +23,54 @@
     </div>
 
     <div class="right">
-        
+        <div class="top">
+            <div class="header">
+                This is not a real online service, but you know you need something like this to realize your deepest dreams. Sign up now to get started.
+            </div>
+            <div class="header2">
+                You <em>know</em> you want to.
+            </div>
+        </div>
+
+        <form action="#">
+            <div class="formArea">
+                <div class="bleh" style="font-weight: bold; font-size: 17px;">Let's do this!</div>
+                <div class="row">
+                    <div>
+                        <label for="firstName">FIRST NAME:</label> <br>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div>
+                        <label for="secondName">SECOND NAME:</label> <br>
+                        <input type="text" name="secondName" id="secondName">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="email">EMAIL:</label> <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="phone">MOBILE NUMBER:</label> <br>
+                        <input type="tel" name="phone" id="phone" minlength="10" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="pass">PASSWORD:</label> <br>
+                        <input type="password" name="pass" id="pass">
+                    </div>
+                    <div>
+                        <label for="passconf">CONFIRM PASSWORD:</label> <br>
+                        <input type="password" name="pass" id="passconf">
+                    </div>
+                </div>
+            </div>
+
+            <button>Create Account</button>
+        </form>
+
+        <div class="last">Already have an account? <a href="#">Log in</a></div>
     </div>
     
 </body>
